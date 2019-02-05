@@ -1,8 +1,14 @@
 {
-  "input_datatypes": [  {
-    "name": "machine_type",
-    "label": "mtype_datatype"
-  } ],
+  "input_datatypes": [
+    {
+      "name": "machine_type",
+      "label": "mtype_datatype"
+    },
+    {
+      "name": "bootdisk_datatype",
+      "label": "bootdisk"
+    }
+  ],
   "input_namespaces": [ ],
   "output_namespace": "",
   "input_groups": [  {
@@ -44,7 +50,7 @@
       "label": "Boot Disk",
       "description": "The boot disk for the instance.",
       "type": "string",
-      "default": "centos-cloud/centos-7",
+      "default": "${bootdisk_datatype.bootdisk}",
       "validation": "",
       "group_name": "Instances-google_compute_instance.default",
       "required": true,
