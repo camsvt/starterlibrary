@@ -30,7 +30,7 @@
       "label": "machine_type",
       "description": "The machine type to create.",
       "type": "string",
-      "default": "${mtype1.n1-standard-2}",
+      "default": "${mtype1.tdlocal_mtype}",
       "validation": "",
       "group_name": "Instances-google_compute_instance.default",
       "required": true,
