@@ -1,0 +1,23 @@
+{
+    "name": "mtype1",
+    "type": "string",
+    "description": "",
+    "label": "machine_type1",
+    "attributes": [
+    
+      {
+   			"name": "n1-standard-1",
+   			"type": "string",
+   			"description": "n1-standard-1 configuration",
+   			"label": "n1-standard-1"
+   		},
+   		{
+   			"name": "n1-standard-2",
+   			"type": "string",
+   			"description": "n1-standard-1 configuration",
+   			"label": "n1-standard-2"
+   		}       
+      
+    ]
+  
+}
