@@ -46,7 +46,7 @@
       "label": "Boot Disk",
       "description": "The boot disk for the instance.",
       "type": "string",
-      "default": "suse-cloud/sles-12",
+      "default": "debian-cloud/debian-8",
       "validation": "",
       "group_name": "Instances-google_compute_instance.default",
       "required": true,
